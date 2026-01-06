@@ -1,0 +1,11 @@
+#include<stdio.h>
+#define PI 3.1415926535
+int main(void)
+{
+    float r,volume;
+    printf("请输入球的半径（m)：");
+    scanf("%f",&r);
+    volume = 4.0f/3.0f*PI*r*r*r;
+    printf("半径为%.1fm的球的体积为%.2fm^3。",r,volume);
+    return 0;
+}
