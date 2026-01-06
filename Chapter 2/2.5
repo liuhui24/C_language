@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(void)
+{
+    float x,item1,item2,item3,item4,item5,sum;
+    printf("请输入一个数x: ");
+    scanf("%f",&x);
+    item1 = 3*x*x*x*x*x;
+    item2 = 2*x*x*x*x;
+    item3 = -5*x*x*x;
+    item4 = -x*x;
+    item5 = 7*x;
+    sum = item1+item2+item3+item4+item5-6;
+    printf("多项式的值为：%.2f",sum);
+    return 0;
+}
